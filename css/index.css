@@ -4,3 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -------- LIGHT STYLES -------- */
+:root {
+    /* color */
+    --bg_color: #fbfbfe;
+    --main_color: #3e9aef;
+    --title_color: #2a3b47;
+    --content_color: #697477;
+    --container_color: #ffffff;
+    --border_color: #a0a7ac;
+    
+    /* font size */
+    --title_size: 18px;
+    --general_size: 12px;
+}
