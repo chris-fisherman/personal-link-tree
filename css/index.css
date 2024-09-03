@@ -19,3 +19,13 @@
     --title_size: 18px;
     --general_size: 12px;
 }
+
+html {
+    background-color: var(--bg_color);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 360px;
+    margin: 32px auto;
+}
