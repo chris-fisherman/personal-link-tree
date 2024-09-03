@@ -35,14 +35,13 @@ body {
 }
 
 /* -------- HEADER -------- */
-#header, #headerProfile, #header_titles {
+#header, #headerProfile, #header_titles, #headerInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 } 
 #header {
     padding: 14px 30px;
-
     gap: 16px;
 }
 /* profile */
@@ -64,4 +63,31 @@ body {
     font-size: var(--general_size);
     font-weight: var(--medium);
     color: var(--content_color);
+}
+/* info */
+#headerInfo {
+    gap: 6px;
+    color: var(--content_color);
+}
+#header_currentStatus, #header_stateCountry {
+    font-size: var(--general_size);
+    font-weight: var(--medium);
+}
+#header_location, #header_skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header_location {
+    gap: 4px;
+}
+#header_mapIcon rect {
+    fill: none;
+}
+#header_mapIcon path {
+    stroke: var(--content_color);
+}
+#header_skills {
+    list-style: none;
+    gap: 8px;
 }
