@@ -155,3 +155,27 @@ body {
     font-weight: var(--semibold);
     color: var(--container_color);
 }
+
+/* -------- FOOTER -------- */
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0;
+}
+/* social media list */
+#socialMedia_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+/* credits */
+#footer_credits {
+    font-size: var(--general_size);
+    font-weight: var(--semibold);
+    color: var(--title_color);
+}
