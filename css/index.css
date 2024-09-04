@@ -34,6 +34,37 @@ body {
     margin: 32px auto;
 }
 
+/* -------- BUTTON -------- */
+#buttonContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 30px;
+}
+#buttonContainer_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+/* background */
+#buttonBackground {
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 28px;
+    border: solid var(--border_color) 0.8px;
+    background-color: var(--container_color);
+    border-radius: 50px;
+}
+/* icon */
+#buttonIcon {
+    margin-left: 1px;
+}
+
+
 /* -------- HEADER -------- */
 #header, #headerProfile, #header_titles, #headerInfo {
     display: flex;
