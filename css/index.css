@@ -34,10 +34,11 @@
     --border_color: #2a3b47;
 }
 
+/* -------- HTML & BODY -------- */
 html {
     background-color: var(--bg_color);
+    transition: 0.3s;
 }
-
 body {
     font-family: 'Inter', sans-serif;
     width: 360px;
@@ -58,9 +59,11 @@ body {
     background-color: transparent;
     border: none;
     padding: 0;
+    transition: 0.3s;
 }
 #dark #buttonContainer_btn {
     transform: translateX(100%);
+    transition: 0.3s;
 }
 /* background */
 #buttonBackground {
