@@ -73,6 +73,9 @@ body {
 #buttonIcon {
     margin-left: 1px;
 }
+#buttonIcon rect {
+    fill: var(--main_color);
+}
 
 
 /* -------- HEADER -------- */
@@ -150,6 +153,9 @@ body {
     list-style: none;
     gap: 18px;
 }
+.main_listIcon path {
+    stroke: var(--title_color);
+}
 .main_listItem {
     border: solid 0.8px var(--border_color);
     border-radius: 12px;
@@ -191,10 +197,13 @@ body {
     text-decoration: none;
     border-radius: 50px;
 }
+#emailLink_icon path {
+    stroke: var(--bg_color);
+}
 #emailLink_title {
     font-size: var(--general_size);
     font-weight: var(--semibold);
-    color: var(--container_color);
+    color: var(--bg_color);
 }
 
 /* -------- FOOTER -------- */
@@ -213,6 +222,9 @@ body {
     align-items: center;
     gap: 16px;
     list-style: none;
+}
+.socialMedia_icon path {
+    fill: var(--main_color);
 }
 /* credits */
 #footer_credits {
