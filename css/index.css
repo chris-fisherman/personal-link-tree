@@ -113,6 +113,7 @@ body {
     border: solid 0.8px var(--border_color);
     border-radius: 12px;
     padding: 14px;
+    background-color: var(--container_color);
 }
 .main_listLink {
     display: flex;
@@ -136,4 +137,21 @@ body {
     font-size: var(--general_size);
     font-weight: var(--medium);
     color: var(--content_color);
+}
+/* email link */
+#main_emailLink {
+    background-color: var(--main_color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 0;
+    text-decoration: none;
+    border-radius: 50px;
+}
+#emailLink_title {
+    font-size: var(--general_size);
+    font-weight: var(--semibold);
+    color: var(--container_color);
 }
