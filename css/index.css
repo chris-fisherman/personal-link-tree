@@ -23,6 +23,16 @@
     --semibold: 600;
     --medium: 500;
 }
+/* -------- DARK STYLES -------- */
+#dark {
+    /* color */
+    --bg_color: #192229;
+    --main_color: #52a5e0;
+    --title_color: #eef3f5;
+    --content_color: #c8cdd0;
+    --container_color: #212e36;
+    --border_color: #2a3b47;
+}
 
 html {
     background-color: var(--bg_color);
