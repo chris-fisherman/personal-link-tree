@@ -147,6 +147,10 @@ body {
 #header_skills {
     list-style: none;
     gap: 6px;
+    margin-top: 4px;
+}
+.header_skillsItem {
+    display: flex;
 }
 
 /* -------- MAIN -------- */
