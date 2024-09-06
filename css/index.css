@@ -172,6 +172,12 @@ body {
 .main_listIcon path {
     stroke: var(--title_color);
 }
+#main_linkedinIcon path {
+    fill: var(--title_color);
+}
+#main_linkedinIcon rect {
+    stroke: var(--title_color);
+}
 .main_listItem {
     border: solid 0.8px var(--border_color);
     border-radius: 12px;
