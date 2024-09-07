@@ -130,7 +130,7 @@ body {
     font-size: var(--general_size);
     font-weight: var(--medium);
 }
-#header_location, #header_skills {
+#header_location /*, #header_skills */ {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -144,14 +144,15 @@ body {
 #header_mapIcon path {
     stroke: var(--content_color);
 }
-#header_skills {
+/* i decided to skip the skills list because i founded it currently unnecesary */
+/* #header_skills {
     list-style: none;
     gap: 6px;
     margin-top: 4px;
 }
 .header_skillsItem {
     display: flex;
-}
+} */
 
 /* -------- MAIN -------- */
 #main, #main_list {
