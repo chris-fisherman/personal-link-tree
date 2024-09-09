@@ -41,7 +41,8 @@ html {
 }
 body {
     font-family: 'Inter', sans-serif;
-    width: 360px;
+    width: 100%;
+    max-width: 450px;
     margin: 32px auto;
 }
 
@@ -216,6 +217,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    max-width: 300px;
     padding: 14px 0;
     text-decoration: none;
     border-radius: 50px;
@@ -236,14 +238,16 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 24px 0;
+    padding: 24px 30px;
 }
 /* social media list */
 #socialMedia_list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 6%;
+    width: 100%;
     list-style: none;
 }
 .socialMedia_icon path {
