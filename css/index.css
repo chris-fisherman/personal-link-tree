@@ -210,6 +210,10 @@ body {
     color: var(--content_color);
 }
 /* email link */
+#main_emailContainer {
+    text-align: center;
+
+}
 #main_emailLink {
     background-color: var(--main_color);
     display: flex;
@@ -218,6 +222,7 @@ body {
     justify-content: center;
     gap: 8px;
     max-width: 300px;
+    margin: 0 auto;
     padding: 14px 0;
     text-decoration: none;
     border-radius: 50px;
