@@ -6,7 +6,7 @@ Mini personal page to unify links to the platforms that interest me the most, so
 
 ## Deploy link
 
-> Check out this website with the following link: [personal-link-tree.netlify.app](https://personal-link-tree.netlify.app/) 🚀
+Check out this website with the following link: [personal-link-tree.netlify.app](https://personal-link-tree.netlify.app/) 🚀
 
 ## Layout & Planning
 
