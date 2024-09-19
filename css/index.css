@@ -194,6 +194,10 @@ body {
     padding: 14px;
     background-color: var(--container_color);
 }
+.main_listItem:hover {
+    background-color: var(--container_color_hover);
+    border-color: var(--border_color_hover);
+}
 .main_listLink {
     display: flex;
     flex-direction: row;
