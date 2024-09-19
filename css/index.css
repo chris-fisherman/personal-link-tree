@@ -14,6 +14,10 @@
     --content_color: #697477;
     --container_color: #ffffff;
     --border_color: #a0a7ac;
+
+    /* hover */
+    --container_color_hover: #fbfbfe;
+    --border_color_hover: #192229;
     
     /* font size */
     --title_size: 18px;
@@ -32,6 +36,10 @@
     --content_color: #c8cdd0;
     --container_color: #212e36;
     --border_color: #2a3b47;
+
+    /* hover */
+    --container_color_hover: #192229;
+    --border_color_hover: #fbfbfe;
 }
 
 /* -------- HTML & BODY -------- */
