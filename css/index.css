@@ -273,6 +273,15 @@ body {
     width: 100%;
     list-style: none;
 }
+.socialMedia_link {
+    display: flex;
+    border-radius: 50%;
+}
+.socialMedia_link:hover {
+    transition: 0.3s;
+    background-color: var(--icon-hover-bg);
+    box-shadow: 0px 0px 0px 8px var(--icon-hover-bg);
+}
 .socialMedia_icon path {
     fill: var(--main_color);
 }
