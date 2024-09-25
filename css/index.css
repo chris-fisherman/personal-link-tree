@@ -18,6 +18,7 @@
     /* hover */
     --container_color_hover: #fbfbfe;
     --border_color_hover: #192229;
+    --icon-hover-bg: rgba(0, 0, 0, 0.10);
     
     /* font size */
     --title_size: 18px;
@@ -40,6 +41,7 @@
     /* hover */
     --container_color_hover: #192229;
     --border_color_hover: #fbfbfe;
+    --icon-hover-bg: rgba(255, 255, 255, 0.20);
 }
 
 /* -------- HTML & BODY -------- */
@@ -69,10 +71,17 @@ body {
     border: none;
     padding: 0;
     transition: 0.3s;
+    border-radius: 24px;
+    margin-left: 1px;
+}
+#buttonContainer_btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 8px var(--icon-hover-bg);
 }
 #dark #buttonContainer_btn {
     transform: translateX(100%);
     transition: 0.3s;
+    margin-left: 2px;
 }
 /* background */
 #buttonBackground {
@@ -88,14 +97,11 @@ body {
     background-color: var(--main_color); /* change background color when dark mode is on */
 }
 /* icon */
-#buttonIcon {
-    margin-left: 1px;
-}
-#dark #buttonIcon {
-    margin-left: 2px;
-}
 #buttonIcon rect {
     fill: var(--main_color);
+}
+#buttonIcon rect:hover {
+    box-shadow: 0px 0px 0px 8px black;
 }
 
 
