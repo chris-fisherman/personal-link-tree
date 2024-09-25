@@ -19,6 +19,7 @@
     --container_color_hover: #fbfbfe;
     --border_color_hover: #192229;
     --icon-hover-bg: rgba(0, 0, 0, 0.10);
+    --email-color-hover: #2889e3;
     
     /* font size */
     --title_size: 18px;
@@ -42,6 +43,7 @@
     --container_color_hover: #192229;
     --border_color_hover: #fbfbfe;
     --icon-hover-bg: rgba(255, 255, 255, 0.20);
+    --email-color-hover: #3896da;
 }
 
 /* -------- HTML & BODY -------- */
@@ -244,6 +246,9 @@ body {
     padding: 14px 0;
     text-decoration: none;
     border-radius: 50px;
+}
+#main_emailLink:hover {
+    background-color: var(--email-color-hover);
 }
 #emailLink_icon path {
     stroke: var(--bg_color);
